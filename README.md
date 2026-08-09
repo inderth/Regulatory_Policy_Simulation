@@ -51,7 +51,7 @@ CALCULATE(
     COUNTROWS(simulated_transactions),
     simulated_transactions[pct_change_price] < 0
 )
-//
+```
 ---
 
 ## Repository Structure
