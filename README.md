@@ -59,16 +59,17 @@ CALCULATE(
 ```text
 regulatory-policy-simulation/
 ├── data/
-│   ├── transactions.db
-│   └── raw_transactions.csv
-├── sql/
-│   └── schema_and_queries.sql
+│   └── market_data
 ├── notebooks/
 │   └── policy_simulation_engine.ipynb
 ├── outputs/
+│   ├── 01_price_distribution.png
+│   ├── 02_firm_profit_grouped_bar.png
+│   ├── 03_firm_profit_boxplot.png
 │   └── simulated_transactions.csv
 ├── dashboard/
 │   ├── Regulatory_Policy_Simulation.pbix
+│   ├── Regulatory_Policy_Simulation.pdf
 │   └── dashboard_preview.png
 └── README.md
 
