@@ -31,7 +31,7 @@ This project combines a **Python simulation** modelling consumer demand response
 ## Key DAX Measures
 
 ```dax
-// Profit Variance Percentage
+// Profit Change
 Profit Change % = 
 DIVIDE(
     [Total Policy Profit] - [Total Baseline Profit],
@@ -39,7 +39,7 @@ DIVIDE(
     0
 )
 
-// Capped Transaction Counter
+// Number of Affected Transactions
 Affected Transactions = 
 CALCULATE(
     COUNTROWS(simulated_transactions),
