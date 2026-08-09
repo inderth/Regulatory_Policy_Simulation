@@ -56,6 +56,7 @@ CALCULATE(
 
 ## Repository Structure
 
+```text
 regulatory-policy-simulation/
 ├── data/
 │   ├── transactions.db
@@ -71,6 +72,7 @@ regulatory-policy-simulation/
 │   └── dashboard_preview.png
 └── README.md
 
+```
 ---
 
 ## Tools & Tech Stack
