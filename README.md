@@ -23,7 +23,7 @@ This project combines a **relational SQL database** for data storage and extract
 ### 2. Microeconomic Elasticity Simulation (`Python`)
 * **Price Elasticity Calibration:** Calibrated using an assumed inelastic price elasticity of demand:
   $$\text{PED} = \frac{\% \Delta Q}{\% \Delta P} = -0.75$$
-* **Policy Margin Capping:** Evaluated transaction-level margins. For products exceeding the $25\%$ profit margin limit:
+* **Policy Margin Capping:** Evaluated transaction-level margins. For products exceeding the 25% profit margin limit:
   $$\text{New Price} = \text{Unit Cost} \times 1.25$$
 * **Volume Adjustment:** Unit sales volumes were dynamically adjusted using Pandas and NumPy to model true market behavioural responses post-regulation.
 * **Visualisation:** Seaborn and Matplotlib were utilised to analyse price distributions at baseline vs post-policy, profit impact, and the distribution of profit losses
