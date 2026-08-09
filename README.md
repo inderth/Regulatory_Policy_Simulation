@@ -56,7 +56,6 @@ CALCULATE(
 
 ## Repository Structure
 
-```text
 regulatory-policy-simulation/
 ├── data/
 │   ├── transactions.db
