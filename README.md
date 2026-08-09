@@ -16,11 +16,11 @@ This project combines a **relational SQL database** for data storage and extract
 
 ## Methodology
 
-### 1. Data Ingestion & SQL Querying (`SQL / SQLite')
+### 1. Data Ingestion & SQL Querying (SQL / SQLite)
 * Stored raw transaction logs across firm, product, regional, and temporal dimensions in a relational **SQLite** database.
 * Executed SQL scripts to filter, join, and extract clean relational datasets into Python for econometric modelling.
 
-### 2. Microeconomic Elasticity Simulation (`Python`)
+### 2. Microeconomic Elasticity Simulation (Python)
 * **Price Elasticity Calibration:** Calibrated using an assumed inelastic price elasticity of demand:
   $$\text{PED} = \frac{\% \Delta Q}{\% \Delta P} = -0.75$$
 * **Policy Margin Capping:** Evaluated transaction-level margins. For products exceeding the 25% profit margin limit:
@@ -28,7 +28,7 @@ This project combines a **relational SQL database** for data storage and extract
 * **Volume Adjustment:** Unit sales volumes were dynamically adjusted using Pandas and NumPy to model true market behavioural responses post-regulation.
 * **Visualisation:** Seaborn and Matplotlib were utilised to analyse price distributions at baseline vs post-policy, profit impact, and the distribution of profit losses
 
-### 3. Interactive Executive Reporting (`Power BI & DAX`)
+### 3. Interactive Executive Reporting (Power BI & DAX)
 * Built dynamic DAX measures to isolate revenue/profit variances across firms, regions, and quarters.
 * Structured a clean UI featuring KPI cards, firm-level loss comparisons, regional vulnerability matrices, and quarterly trajectory charts.
 
