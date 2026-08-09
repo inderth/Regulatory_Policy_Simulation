@@ -15,7 +15,7 @@ This project combines a **Python simulation** modelling consumer demand response
 ---
 
 ## Technical Architecture & Methodology
-### 1. Microeconomic Elasticity Simulation ('Python')
+### 1. Microeconomic Elasticity Simulation ('**Python**')
 * **Price Elasticity Calibration:** Calibrated using an assumed inelastic price elasticity of demand:
   $$\text{PED} = \frac{\% \Delta Q}{\% \Delta P} = -0.75$$
 * **Policy Margin Capping:** Evaluated transaction-level margins. For products exceeding the $25\%$ profit margin limit:
