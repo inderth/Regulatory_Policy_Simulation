@@ -51,3 +51,33 @@ CALCULATE(
     COUNTROWS(simulated_transactions),
     simulated_transactions[pct_change_price] < 0
 )
+
+---
+
+## Repository Structure
+
+```text
+regulatory-policy-simulation/
+├── data/
+│   ├── transactions.db
+│   └── raw_transactions.csv
+├── sql/
+│   └── schema_and_queries.sql
+├── notebooks/
+│   └── policy_simulation_engine.ipynb
+├── outputs/
+│   └── simulated_transactions.csv
+├── dashboard/
+│   ├── Regulatory_Policy_Simulation.pbix
+│   └── dashboard_preview.png
+└── README.md
+
+---
+
+## Tools & Tech Stack
+
+* **Database & Querying:** SQL / SQLite
+* **Language:** Python 3.x
+* **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, `sqlite3`
+* **BI Platform:** Microsoft Power BI Desktop
+* **Language/Calculations:** Data Analysis Expressions (DAX)
