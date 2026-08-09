@@ -16,7 +16,7 @@ This project combines a **relational SQL database** for data storage and extract
 
 ## Methodology
 
-### 1. Data Ingestion & SQL Querying (`SQL / SQLite`)
+### 1. Data Ingestion & SQL Querying (`SQL / SQLite')
 * Stored raw transaction logs across firm, product, regional, and temporal dimensions in a relational **SQLite** database.
 * Executed SQL scripts to filter, join, and extract clean relational datasets into Python for econometric modelling.
 
