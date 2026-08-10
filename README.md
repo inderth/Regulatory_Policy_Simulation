@@ -62,7 +62,7 @@ While the simulation successfully models primary price controls, several assumpt
    * *Extension:* Implement elasticity curves as a dynamic function or cross-price elasticity across competing firms.
 
 2. **Inelastic Cost Structures:**
-   * *Limitation:* Unit cost structures are modelled as static ($C_{\text{unit}} = \text{const}$). In practice, firms facing margin reductions may adapt by cutting R&D, or adjusting capital and labour allocation and costs to restore profitability.
+   * *Limitation:* Unit cost structures are modelled as static ($C_{\text{unit}} = \text{c}$). In practice, firms facing margin reductions may adapt by cutting R&D, or adjusting capital and labour allocation and costs to restore profitability.
    * *Extension:* Integrate a dynamic supply-side cost response function to simulate strategic cost-cutting behaviours.
 
 3. **Absence of Game-Theoretic Competitor Response:**
