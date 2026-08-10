@@ -53,6 +53,23 @@ CALCULATE(
 )
 ```
 ---
+## Model Limitations & Future Extensions
+
+While the simulation successfully models primary price controls, several assumptions should be considered:
+
+1. **Static Price Elasticity of Demand (PED = -0.75):** 
+   * *Limitation:* Demand elasticity is assumed constant across all products, firms, and price points. In reality, elasticity varies non-linearly based on market power, product type, and price levels.
+   * *Extension:* Implement elasticity curves as a dynamic function or cross-price elasticity across competing firms.
+
+2. **Inelastic Cost Structures:**
+   * *Limitation:* Unit cost structures are modelled as static ($C_{\text{unit}} = \text{const}$). In practice, firms facing margin reductions may adapt by cutting R&D, or adjusting capital and labour allocation and costs to restore profitability.
+   * *Extension:* Integrate a dynamic supply-side cost response function to simulate strategic cost-cutting behaviours.
+
+3. **Absence of Game-Theoretic Competitor Response:**
+   * *Limitation:* The model assumes firms passively comply with price caps without countermeasures such as product bundling, quality degradation, or market exit.
+   * *Extension:* Incorporate Cournot or Bertrand games in price/quantity decision making to predict oligopolistic price matching and market concentration effects.
+
+---
 
 ## Repository Structure
 
