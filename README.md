@@ -6,6 +6,9 @@ This project combines a **relational SQL database** for data storage and extract
 
 ---
 
+> 📄 **Executive Asset:** [Download / View Executive Briefing Note (PDF)](outputs/Executive_Briefing_Note.pdf)
+
+---
 ## Executive Summary & Core Insights
 
 * **Top-Line Revenue Neutrality (0.0% Change):** Because consumer demand was assumed to be inelastic and constant ($\text{PED} = -0.75$), lower unit prices driven by the regulatory cap stimulated increased transaction volume. This volume expansion offset unit price cuts, leaving gross revenue virtually unchanged.
