@@ -1,8 +1,8 @@
 # Regulatory Policy Simulation & Dashboard
 
-An end-to-end econometric simulation and executive analytics dashboard evaluating the microeconomic impact of a proposed **25% profit margin cap** across 160 transaction records. 
+An end-to-end econometric simulation and executive analytics dashboard evaluating the microeconomic impact of a proposed 25% profit margin cap across 160 transaction records. 
 
-This project combines a **relational SQL database** for data storage and extraction, a **Python simulation** modelling consumer demand responses under price elasticity constraints, and an interactive **Power BI dashboard** to aid with executive decision-making.
+This project combines a relational SQL database for data storage and extraction, a Python simulation modelling consumer demand responses under price elasticity constraints, and an interactive Power BI dashboard to aid with executive decision-making.
 
 ---
 
@@ -11,16 +11,16 @@ This project combines a **relational SQL database** for data storage and extract
 ---
 ## Executive Summary & Core Insights
 
-* **Top-Line Revenue Neutrality (0.0% Change):** Because consumer demand was assumed to be inelastic and constant ($\text{PED} = -0.75$), lower unit prices driven by the regulatory cap stimulated increased transaction volume. This volume expansion offset unit price cuts, leaving gross revenue virtually unchanged.
-* **Bottom-Line Margin Squeeze (-9.8% Net Profit Drop):** Fixed unit costs combined with capped profit margins resulted in a severe net profit reduction across the portfolio, dropping overall profit from **£168K** to **£152K**.
-* **Asymmetric Firm Exposure:** The policy disproportionately penalises market leaders and efficient operators. High-margin firms (e.g. **Firm E** at **-11.3%**) experienced severe profit drops, whereas lower-margin competitors (e.g. **Firm A** at **-2.3%**) were affected much less.
+* **Top-Line Revenue Neutrality (0.0% Change)**: Because consumer demand was assumed to be inelastic and constant ($\text{PED} = -0.75$), lower unit prices driven by the regulatory cap stimulated increased transaction volume. This volume expansion offset unit price cuts, leaving gross revenue virtually unchanged.
+* **Bottom-Line Margin Squeeze (-9.8% Net Profit Drop):** Fixed unit costs combined with capped profit margins resulted in a severe net profit reduction across the portfolio, dropping overall profit from £168K** to **£152K.
+* **Asymmetric Firm Exposure:** The policy disproportionately penalises market leaders and efficient operators. High-margin firms (e.g. **Firm E** at **-11.3%**) experienced severe profit drops, whereas lower-margin competitors (e.g. Firm A at -2.3%) were affected much less.
 
 ---
 
 ## Methodology
 
 ### 1. Data Ingestion & SQL Querying (SQL / SQLite)
-* Stored raw transaction logs across firm, product, regional, and temporal dimensions in a relational **SQLite** database.
+* Stored raw transaction logs across firm, product, regional, and temporal dimensions in a relational SQLite database.
 * Executed SQL scripts to filter, join, and extract clean relational datasets into Python for econometric modelling.
 
 ### 2. Microeconomic Elasticity Simulation (Python)
