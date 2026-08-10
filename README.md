@@ -100,6 +100,6 @@ regulatory-policy-simulation/
 
 * **Database & Querying:** SQL / SQLite
 * **Language:** Python 3.x
-* **Libraries:** `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`, `sqlite3`
+* **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `sqlite3`
 * **BI Platform:** Microsoft Power BI Desktop
 * **Language/Calculations:** Data Analysis Expressions (DAX)
