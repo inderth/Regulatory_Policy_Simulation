@@ -12,7 +12,7 @@ This project combines a relational SQL database for data storage and extraction,
 ## Executive Summary & Core Insights
 
 * **Top-Line Revenue Neutrality (0.0% Change)**: Because consumer demand was assumed to be inelastic and constant ($\text{PED} = -0.75$), lower unit prices driven by the regulatory cap stimulated increased transaction volume. This volume expansion offset unit price cuts, leaving gross revenue virtually unchanged.
-* **Bottom-Line Margin Squeeze (-9.8% Net Profit Drop):** Fixed unit costs combined with capped profit margins resulted in a severe net profit reduction across the portfolio, dropping overall profit from £168K** to **£152K.
+* **Bottom-Line Margin Squeeze (-9.8% Net Profit Drop):** Fixed unit costs combined with capped profit margins resulted in a severe net profit reduction across the portfolio, dropping overall profit from £168K to £152K.
 * **Asymmetric Firm Exposure:** The policy disproportionately penalises market leaders and efficient operators. High-margin firms (e.g. Firm E at -11.3%) experienced severe profit drops, whereas lower-margin competitors (e.g. Firm A at -2.3%) were affected much less.
 
 ---
